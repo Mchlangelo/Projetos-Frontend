@@ -1,0 +1,55 @@
+body{
+    background-color: #b24d;
+}
+
+/*div*/
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/*form-title*/
+.form h3{
+    color: black;
+    font-size: 30px;
+    position: relative;
+    border-bottom: #b24d;
+}
+
+
+/*form*/
+#myForm{
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+/*inputs*/
+#myForm input{
+    width: 350px;
+    border: 1px solid #b24d;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#myForm ::placeholder{
+    padding-left: 10px;
+}
+
+/*submit-button*/
+#myForm input[type="submit"]{
+    background-color:#b24d;
+    color: white;
+    border: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#myForm input[type="submit"]:hover{
+    background-color: red;
+    color: white;
+}
