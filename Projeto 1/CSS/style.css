@@ -15,8 +15,6 @@ body{
 .form h3{
     color: black;
     font-size: 30px;
-    position: relative;
-    border-bottom: #b24d;
 }
 
 
@@ -52,5 +50,4 @@ body{
 
 #myForm input[type="submit"]:hover{
     background-color: red;
-    color: white;
 }
