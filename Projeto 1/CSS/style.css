@@ -2,6 +2,7 @@ body{
     background-color: #b24d;
 }
 
+
 /*div*/
 .form{
     display: flex;
@@ -10,6 +11,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
 }
+
 
 /*form-title*/
 .form h3{
@@ -26,6 +28,7 @@ body{
     padding: 20px;
 }
 
+
 /*inputs*/
 #myForm input{
     width: 350px;
@@ -38,6 +41,7 @@ body{
 #myForm ::placeholder{
     padding-left: 10px;
 }
+
 
 /*submit-button*/
 #myForm input[type="submit"]{
