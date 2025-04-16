@@ -1,0 +1,85 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    height:100vh;
+    margin: 0;
+    }
+
+/*form-div*/
+.form{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+/*div-container*/
+.container {
+    flex: 1; /* Ocupa metade da tela */
+    background-color: #b24d; /* Mantém sua cor de fundo */
+}
+
+/*form-title*/
+#login-form h2{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+
+}
+
+/*login-form*/
+#login-form{
+    font-size: bold;
+    padding: 30px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+}
+
+/*form-inputs*/
+#login-form input{
+    border: 2px solid #b24d;
+    border-radius: 15px;
+    padding: 20px;
+    width:85%;
+    margin-bottom: 10px;
+    
+}
+
+/*input-placeholder*/
+#login-form ::placeholder{
+    padding-left:8px;
+}
+
+/*button-submit*/
+#login-form input[type="submit"]{
+    background-color:#b24d;
+    color: white;
+    border: none;
+    font-weight: bold;
+    width:100%;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+#login-form input[type="submit"]:hover{
+    background-color: red;
+}
+
+
+/*reset-password-paragraph*/
+#login-form p{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 90px;
+}
+
+#login-form p a{
+    text-decoration: none;
+    color: #b24d;
+    font-weight: bold;
+}
