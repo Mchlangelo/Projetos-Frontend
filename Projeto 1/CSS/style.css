@@ -21,7 +21,7 @@ body{
 
 
 /*form*/
-#myForm{
+#signup-form{
     color: black;
     background-color: white;
     border-radius: 15px;
@@ -30,7 +30,7 @@ body{
 
 
 /*inputs*/
-#myForm input{
+#signup-form input{
     width: 350px;
     border: 1px solid #b24d;
     border-radius: 15px;
@@ -38,13 +38,13 @@ body{
     
 }
 
-#myForm ::placeholder{
+#signup-form ::placeholder{
     padding-left: 10px;
 }
 
 
 /*submit-button*/
-#myForm input[type="submit"]{
+#signup-form input[type="submit"]{
     background-color:#b24d;
     color: white;
     border: 20px;
@@ -52,6 +52,6 @@ body{
     margin-left: 5px;
 }
 
-#myForm input[type="submit"]:hover{
+#signup-form input[type="submit"]:hover{
     background-color: red;
 }
